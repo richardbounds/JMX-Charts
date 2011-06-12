@@ -1,0 +1,50 @@
+html
+{
+	height: 100%;
+}
+body
+{
+	background: #fff;
+	height: 100%;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+
+#portlet-template {
+	display: none;
+}
+
+.column {
+	width: 32%;
+	float: left;
+	padding-bottom: 100px;
+}
+
+.portlet {
+	margin: 4px 2px;
+	padding: 3px;
+}
+
+.portlet-header {
+	padding-left: 4px;
+}
+
+.portlet-header .ui-icon {
+	float: right;
+}
+
+.portlet-content {
+	width: 100%px;
+	height: 200px;
+	margin: 4px;
+}
+
+.ui-sortable-placeholder {
+	border: 1px dotted lightgray;
+	visibility: visible !important;
+	height: 10px !important;
+}
+
+.ui-sortable-placeholder * {
+	visibility: hidden;
+}
